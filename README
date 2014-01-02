@@ -1,0 +1,10 @@
+General Description:
+Curve fitting utility written on Python. Main differentiating feature - ability to fit data by the large set of various functions and selecting the one providing the "best" fit.
+
+Libraries Used:
+- scipy
+- numpy
+- matplotlib
+
+Preferred IDE:
+- Anaconda/Spyder
