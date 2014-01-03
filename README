@@ -5,6 +5,7 @@ Libraries Used:
 - scipy
 - numpy
 - matplotlib
+- scitools
 
 Preferred IDE:
 - Anaconda/Spyder

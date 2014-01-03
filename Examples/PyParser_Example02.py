@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 31 13:25:01 2013
-
-@author: OMedvedev
-"""
-
 #
 # simpleArith.py
 #
@@ -65,9 +58,11 @@ test = ["9 + 2 + 3",
         "(9 + -2) * 3^2^2",
         "(9! + -2) * 3^2^2",
         "M*X + B",
-        "M*(X + B)",
+        "M*(X+B)",
         "1+2*-3^4*5+-+-6",]
 for t in test:
     print t
-    print expr.parseString(t)
+    res=expr.parseString(t)
+    #print expr.parseString(t)
+    print res
     print 

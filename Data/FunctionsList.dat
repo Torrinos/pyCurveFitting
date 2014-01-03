@@ -1,4 +1,16 @@
-a*x
 a+b*x
 a+b*x+c*x**2
 a+b*x+c*x**2+d*x**3
+a+b*x+c*x**2+d*x**3+e*x**4
+a+b*exp(c*x+d)
+a+b*log(c*x+d)
+a+b*x+c*exp(d*x+e)
+a+b*x+c*log(d*x+e)
+a+b/x
+a+b/x+c/x/x
+a+b/x+c*x**2
+a+b*sin(c*x+d)
+a+b*cos(c*x+d)
+a+b*sin(c*x+d)+e*cos(f*x+g)
+a+b*sin(c*x+d)*cos(e*x+f)
+a+b*tan(c*x+d)

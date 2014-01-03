@@ -20,13 +20,13 @@ def fcn2min(params, x, data):
     A3 = params['A3'].value
     A4 = params['A4'].value
 
-    model = A1 + A2*x + A3*x*x + A4*x*x*x
+    model = A1 + A2*np.exp(A3*x)
     return model - data
 
 # create a set of Parameters
 params = Parameters()
-params.add('A1', value= 10,  min=0)
-params.add('A2', value= 0.1)
+params.add('A1', value= 1,  min=0)
+params.add('A2', value= 1)
 params.add('A3', value= 0.1)
 params.add('A4', value= 0.2)
 
