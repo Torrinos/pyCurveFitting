@@ -7,7 +7,7 @@ Created on Tue Dec 31 11:21:35 2013
 @author: OMedvedev
 """
 
-class EQParser():
+class CParsing():
     def __init__(self):
         self._varStack = []
         self._pattern = self._defPattern()
@@ -75,4 +75,4 @@ if __name__ == "__main__":
 
     print test("a+b*cos(c*x)+sin(x)",([2,4,5.1]),1.21)-(2+4*cos(5.1*1.21)+sin(1.21))
     print test("a+b**c**d**x",([1.1,2.1,.12,4.2]),1.298)-(1.1+2.1**0.12**4.2**1.298)
-    print test("a+b**cot",([1.1,2.1,.12,4.2]),1.298)-(1.1+2.1**0.12**4.2**1.298)
+    print test("a*exp((x-b)**2/c)",([0.25,0.2,0.456]),0.987e+0)-(0.25*exp((0.987-0.2)**2/0.456))

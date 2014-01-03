@@ -20,3 +20,8 @@ a+b*sqrt(c*x**2+d)
 a+b*sqrt(c*x**3+d)
 a+b*x**c
 a+b*(x+c)**d
+a*exp((x-b)**2/c)
+a*exp(-(x-b)**2/c)
+a*exp(-x**2/c)
+a*exp(x**2/c)
+a/(b*(1+x*x))
