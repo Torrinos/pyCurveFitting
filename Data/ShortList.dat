@@ -1,7 +1,12 @@
 a+b*x
 a+b*x+c*x**2
+a+b*x**c
 a+b*x+c*x**2+d*x**3
 a+b*sin(c*x+d)
 a+b*cos(c*x+d)
 a+b*exp(c*x+d)
 a+b*log(c*x+d)
+a+b*sqrt(x**2+c)
+a+b*sqrt(c*x**2+d)
+a+b*sqrt(c*x**3+d)
+a+b*(x+c)**d

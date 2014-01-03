@@ -14,3 +14,9 @@ a+b*cos(c*x+d)
 a+b*sin(c*x+d)+e*cos(f*x+g)
 a+b*sin(c*x+d)*cos(e*x+f)
 a+b*tan(c*x+d)
+a+sqrt(b*x)
+a+b*sqrt(c*x+d)
+a+b*sqrt(c*x**2+d)
+a+b*sqrt(c*x**3+d)
+a+b*x**c
+a+b*(x+c)**d
